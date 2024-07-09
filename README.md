@@ -7,7 +7,7 @@ This project aims to enhance cybersecurity by implementing two primary tasks:
 
 1. **Threat Detection**: Using an ensemble of Artificial Neural Networks (ANN) and Long Short-Term Memory (LSTM) models.
 2. **Attack Classification**: Using a Decision Tree model to classify different types of attacks.
-3. ** Self-Healing Mechanism **: Based on attack classification, implementing self-healing mechanisms in real-time.
+3. **Self-Healing Mechanism**: Based on attack classification, implementing self-healing mechanisms in real-time.
 4. **Dashboards and Visualisation**: Use of dashboards for real-time threat detection and attack classification. 
 
 
