@@ -1,5 +1,5 @@
- # Self Healing AI 
-This repository contains notebooks and models for detecting cyber threats and classifying attacks using machine learning and deep learning techniques.
+ # Self Healing AI for Network Security
+This repository contains notebooks and models for detecting cyber threats and classifying attacks using machine learning and deep learning techniques. Following that, real-time implementation was done using synthetic data and self-healing mechanisms were implemented. 
 
 ## Project Overview
 
