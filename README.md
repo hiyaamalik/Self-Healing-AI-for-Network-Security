@@ -3,7 +3,7 @@ This repository contains notebooks and models for detecting cyber threats and cl
 
 ## Project Overview
 
-This project aims to enhance cybersecurity by implementing two primary tasks:
+This project aims to enhance cybersecurity by implementing the following primary tasks:
 
 1. **Threat Detection**: Using an ensemble of Artificial Neural Networks (ANN) and Long Short-Term Memory (LSTM) models.
 2. **Attack Classification**: Using a Decision Tree model to classify different types of attacks.
