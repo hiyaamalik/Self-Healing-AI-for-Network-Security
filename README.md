@@ -10,7 +10,8 @@ This project aims to enhance cybersecurity by implementing the following primary
 3. **Self-Healing Mechanism**: Based on attack classification, implementing self-healing mechanisms in real-time.
 4. **Dashboards and Visualisation**: Use of dashboards for real-time threat detection and attack classification. 
 
-
+## Datasets
+Two different datasets were used to train models in this project. One was the Network Intrusion Detection dataset (CSV format) used to train, test and validate threat detection models. Second was CICIDS2017 (CSV format) which was used to train and test the attack classification model. Both datasets are uploaded to the repository.
 
 ## Notebooks
 
