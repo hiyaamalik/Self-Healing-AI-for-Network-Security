@@ -12,6 +12,8 @@ This project aims to enhance cybersecurity by implementing the following primary
 
 ## Datasets
 Two different datasets were used to train models in this project. One was the Network Intrusion Detection dataset (CSV format) used to train, test and validate threat detection models. Second was CICIDS2017 (CSV format) which was used to train and test the attack classification model. Both datasets are uploaded to the repository.
+![image](https://github.com/user-attachments/assets/8706d2eb-df12-4c2d-b3ed-4405081d069f)
+
 
 ## Notebooks
 
@@ -25,6 +27,13 @@ This notebook includes the following:
 - **Model Evaluation**: Accuracy, confusion matrix, ROC curve, and AUC score.
 - **Model Saving**: Saving the trained models and ensemble model.
 
+Here are the classification reports of ANN model, LSTM model and ensemble model respectively
+
+![image](https://github.com/user-attachments/assets/ae5ad346-5776-4c5e-8ad0-edd5ca0e5fb4) ![image](https://github.com/user-attachments/assets/56b24994-dec2-4033-953c-752fce4df83b) ![image](https://github.com/user-attachments/assets/a3014a3b-3e2c-4d5d-bc11-eb36afa006c8)
+
+
+
+
 ### 2. Attack Classification
 This notebook includes:
 - **Data Loading and Preprocessing**: Combining multiple datasets, handling missing values, encoding categorical variables, and feature scaling.
@@ -32,11 +41,24 @@ This notebook includes:
 - **Model Evaluation**: Accuracy, confusion matrix, and classification report.
 - **Model Saving**: Saving the trained Decision Tree model.
 
+Here is the classification report of the decision tree model.
+
+![image](https://github.com/user-attachments/assets/3e407aa3-7ae3-4cd9-b8db-92150997ec8c)
+![image](https://github.com/user-attachments/assets/f55db7aa-6a5c-46cf-bfcd-b01cd12854e8)
+
+
+
 ### 3. Dashboard
 This notebook includes:
 - **Real-Time Monitoring**: Streaming data, making predictions using the ensemble model, and logging results.
 - **Visualization**: Displaying real-time predictions and plotting attack distribution.
 - **Self-Healing Dashboard**: Using the Decision Tree model for real-time attack classification and visualization.
+
+Here are some demo testing screenshots from dashboard.
+
+![image](https://github.com/user-attachments/assets/cc1dea09-dc1c-4ff6-9eec-eff8bc04253b) ![image](https://github.com/user-attachments/assets/803f1761-2e6d-4ee8-ae1e-b0f5bc9ceae4)
+
+
 
 ## Models
 
